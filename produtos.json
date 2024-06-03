@@ -1,1 +1,58 @@
-[{"id":"1","nome":"LIVRO TOP"},{"id":"2","nome":"LIVRO ruim"},{"id":"3","nome":"Livro muito bom"},{"id":"4","nome":"livro mais mais"},{"id":"5","nome":"livro lolol"},{"id":"8","nome":"livro lolol"}]
+
+[
+    {
+        "id": "1",
+        "nome": "Tênis Adidas - Preto",
+        "valor": "350.80",
+        "imageUrl":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4659ee058ba34bd2a5d0af500104c17d_9366/Tenis_Campus_00s_Preto_HQ8708_01_standard.jpg"
+        
+    },
+    {
+        "id": "2",
+        "nome": "Camiseta básica - Amarelo",
+        "valor": "120.90",
+        "imageUrl":"https://trilhaesportes.fbitsstatic.net/img/p/camisa-adidas-adicolor-classics-trefoil-masculino-amarelo-branco-70422/259492-2.jpg?w=800&h=800&v=no-value"
+    },
+    {
+        "id": "3",
+        "nome": "Jaqueta amarela - Listras azuis",
+        "valor":"120.90",
+        "imageUrl":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1e6e84c5e90f46b5b9e8d0e4b9662c89_9366/Jaqueta_Colorblock_Amarelo_IT9840_21_model.jpg"
+    },
+    {
+        "id": "4",
+        "nome": "Tênis nike rosa - Para corrida",
+        "valor":"330.50",
+        "imageUrl":"https://imgnike-a.akamaihd.net/768x768/026709N2.jpg"
+    },
+    {
+        "id": "5",
+        "nome": "Moletom com capuz - Estilo zebra",
+        "valor":"230.30",
+        "imageUrl":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3b9ef9ab8b724fa09d413cc6f25692a6_9366/Moletom_Capuz_Zebra_Animal_Print_Essentials_Cinza_IJ5604_21_model.jpg"
+    },
+    {
+        "id": "6",
+        "nome": "Tênis Pegasus",
+        "valor":"199.90",
+        "imageUrl":"https://imgnike-a.akamaihd.net/768x768/02706551.jpg"
+    },
+    {
+        "id": "7",
+        "nome": "Camisa da Argentina",
+        "valor":"149.90",
+        "imageUrl":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/05596cc5f7724da8946f5362652319d0_9366/Camisa_1_Argentina_24_Branco_IP8409_21_model.jpg"
+    },
+    {
+        "id": "8",
+        "nome": "Camisa Do Manchster",
+        "valor":"168.90",
+        "imageUrl":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f74783ba556244849a2f8dbb1bae3c82_9366/Camisa_3_Manchester_United_23-24_Branco_IP1741_HM1.jpg"
+    },
+    {
+        "id": "9",
+        "nome": "Tenis Ultra boost",
+        "valor":"550.90",
+        "imageUrl":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f264f24a2764f89a50eb99a6e356510_9366/Tenis_Ultraboost_1.0_Borgonha_IF9076_01_standard.jpg"
+    }
+]

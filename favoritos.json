@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "nome": "Tênis Adidas - Preto",
+        "valor": "350.80",
+        "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4659ee058ba34bd2a5d0af500104c17d_9366/Tenis_Campus_00s_Preto_HQ8708_01_standard.jpg"
+    },
+    {
+        "id": "3",
+        "nome": "Jaqueta amarela - Listras azuis",
+        "valor": "120.90",
+        "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1e6e84c5e90f46b5b9e8d0e4b9662c89_9366/Jaqueta_Colorblock_Amarelo_IT9840_21_model.jpg"
+    }
+]
