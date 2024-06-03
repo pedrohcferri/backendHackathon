@@ -1,10 +1,10 @@
-const { getTodosLivros, getLivroPorId, insereLivro, modificaLivro,deletaLivroPorId} = require("../servicos/livro")
+const { getTodosProdutos, getProdutoPorId, insereProduto, modificaProduto,deletaProdutoPorId} = require("../servicos/produto")
 
 
-function getLivros(req, res){
+function getProdutos(req, res){
     try {
-        const livros = getTodosLivros()        
-        res.send(livros)
+        const produtos = getTodosProdutos()        
+        res.send(produtos)
 
     } catch(error){
         res.status(500)
@@ -12,11 +12,11 @@ function getLivros(req, res){
     }
 }
 
-function getLivro(req, res){
+function getProduto(req, res){
     try {
         const id = req.params.id
         if(id && Number(id)){
-            const livro = getLivroPorId(id)        
+            const livro = getProdutoPorId(id)        
             res.send(livro)
         } else{
             res.status(422)
@@ -28,13 +28,13 @@ function getLivro(req, res){
     }
 }
 
-function postLivro(req, res){
+function postProduto(req, res){
     try{
-        const livroNovo = req.body
+        const produtoNovo = req.body
         if(req.body.nome){
-            insereLivro(livroNovo)
+            insereProduto(produtoNovo)
             res.status(201)
-            res.send("livro inserido com sucesso")
+            res.send("Produto inserido com sucesso")
         }else{
             res.status(422)
             res.send("O campo nome é obrigatório")
@@ -44,12 +44,12 @@ function postLivro(req, res){
         res.send(error.message)
     }
 }
-function patchLivro(req,res){
+function patchProduto(req,res){
     try{
         const id = req.params.id
         if(id && Number(id)){
         const body = req.body
-        modificaLivro(body,id)
+        modificaProduto(body,id)
         res.send("Item modificado com sucesso")
         }else{
             res.status(422)
@@ -61,12 +61,12 @@ function patchLivro(req,res){
     }
 
 }
-function deleteLivro(req,res){
+function deleteProduto(req,res){
     try{
         const id = req.params.id
         if(id && Number(id)){
-            deletaLivroPorId(id)
-            res.send("Livro deletados com sucesso")
+            deletaProdutoPorId(id)
+            res.send("Produtos deletados com sucesso")
         }else{
             res.status(422)
             res.send("Id inválido")
@@ -79,9 +79,9 @@ function deleteLivro(req,res){
 
 }
 module.exports = {
-    getLivros,
-    getLivro,
-    postLivro,
-    patchLivro,
-    deleteLivro
+    getProdutos,
+    getProduto,
+    postProduto,
+    patchProduto,
+    deleteProduto
 }
